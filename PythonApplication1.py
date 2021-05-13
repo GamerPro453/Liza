@@ -106,3 +106,50 @@
 #print(A.index(6))
 
 #print(A.count(7))
+
+#-------------------------7/100----------------------------
+
+#f = open("task.txt")
+#a = int(f.readline())
+#A = []
+#s=0 #s - общая сумма
+#s1=0 #s1 - сумма стоимостей премиум телефонов
+#for i in range(a):
+#    A.append(int(f.readline()))
+#    s+=A[i]
+#f.close()
+#A=sorted(A,reverse=True)
+#r = 0
+#for i in range(a):
+#    s = s* 3/10
+#    if s1 + A[i] > s:
+#        break
+#    s1+=A[i]
+#    r = i
+#summ1 = 0
+#summ2 = 0
+#g = 0
+#for i in range (r):
+#        summ1 = summ1 + (A[i] + A[g])*8/10
+#        g+=1
+#for i in range (g, a):
+#    summ1+=A[i]
+#g=0
+#for i in range (r):
+#        summ2 = summ2 + (A[i] + A[g]*5/10)
+#        g+=1
+#for i in range (g, a):
+#    summ2+=A[i]
+#if summ2 > summ1:
+#    print("first")
+#else:
+#    print("second")
+#print(r+1)
+
+     
+        
+        
+
+
+        
+
